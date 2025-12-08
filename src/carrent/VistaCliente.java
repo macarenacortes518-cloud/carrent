@@ -7,7 +7,6 @@ public class VistaCliente extends JFrame {
 
     private GestionCarRent sistema;
 
-    // Componentes
     private JLabel lblTitulo;
     private JLabel lblCedula;
     private JLabel lblNombre;
@@ -23,7 +22,6 @@ public class VistaCliente extends JFrame {
         super("Clientes");
         this.sistema = sistema;
 
-        // Configuración básica
         setSize(350, 250);
         setLocationRelativeTo(null);
         setLayout(null); // Layout absoluto (simple)
@@ -31,7 +29,6 @@ public class VistaCliente extends JFrame {
         // Color de fondo
         getContentPane().setBackground(new Color(230, 230, 250));
 
-        // Crear componentes
         lblTitulo = new JLabel("CLIENTES");
         lblTitulo.setFont(new Font("Arial", Font.BOLD, 16));
         lblTitulo.setBounds(20, 10, 300, 30);
@@ -59,7 +56,6 @@ public class VistaCliente extends JFrame {
         btnAgregar = new JButton("Agregar");
         btnAgregar.setBounds(220, 180, 100, 30);
 
-        // Agregar todo al JFrame
         add(lblTitulo);
         add(lblCedula);
         add(txtCedula);
@@ -92,7 +88,6 @@ public class VistaCliente extends JFrame {
         return sistema;
     }
 
-    // Método para limpiar los campos después de agregar
     public void limpiarCampos() {
         txtCedula.setText("");
         txtNombre.setText("");

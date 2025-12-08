@@ -12,7 +12,6 @@ public class ControladorPrincipal implements ActionListener {
         this.vista = vista;
         this.sistema = sistema;
 
-        // Registrar listeners
         vista.getItemArriendoCuotas().addActionListener(this);
         vista.getItemPagarCuotas().addActionListener(this);
         vista.getItemAgregarCliente().addActionListener(this);

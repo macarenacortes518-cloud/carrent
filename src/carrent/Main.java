@@ -2,16 +2,11 @@ package carrent;
 
 public class Main {
 	public static void main(String[] args) {
-		// Crear el sistema
 		GestionCarRent sistema = new GestionCarRent();
-
-		// Agregar datos de prueba
 		agregarDatosPrueba(sistema);
 
-		// Crear ventana principal
 		VistaPrincipal ventana = new VistaPrincipal(sistema);
 
-		// Crear controlador
 		ControladorPrincipal controlador = new ControladorPrincipal(ventana, sistema);
 	}
 

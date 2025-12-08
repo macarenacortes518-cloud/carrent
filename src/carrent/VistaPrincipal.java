@@ -7,12 +7,10 @@ public class VistaPrincipal extends JFrame {
 
     private GestionCarRent sistema;
 
-    // Labels para actualizar
     private JLabel lblArriendos;
     private JLabel lblVehiculos;
     private JLabel lblClientes;
 
-    // Menú
     private JMenuBar menuBar;
     private JMenu menuOperaciones;
     private JMenuItem itemArriendoCuotas;

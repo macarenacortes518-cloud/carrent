@@ -25,7 +25,6 @@ public class ControladorCliente implements ActionListener {
     }
 
     private void agregarCliente() {
-        // Obtener los datos de los campos
         String cedula = vista.getTxtCedula().getText().trim();
         String nombre = vista.getTxtNombre().getText().trim();
         boolean vigente = vista.getCheckVigente().isSelected();
