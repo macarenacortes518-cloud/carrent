@@ -33,7 +33,6 @@ public class VistaArriendoCuotas extends JFrame{
 	
 	public VistaArriendoCuotas(GestionCarRent sistema) {
 		super("Arriendo con cuotas");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLayout(new BorderLayout());
 		setLocationRelativeTo(null);
 		
